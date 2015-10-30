@@ -1,0 +1,21 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 240, in script
+    jump act1
+ScriptError: could not find label 'act1'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 240, in script
+    jump act1
+  File "G:\Renpy-related shit\renpy-6.99.6-sdk\renpy\ast.py", line 1512, in execute
+    rv = renpy.game.script.lookup(target)
+  File "G:\Renpy-related shit\renpy-6.99.6-sdk\renpy\script.py", line 843, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'act1'.
+
+Windows-8-6.2.9200
+Ren'Py 6.99.7.845
+Transcension 0.0

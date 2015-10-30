@@ -127,8 +127,8 @@ play music "jingles/Pre-chapter Jingle.mp3" noloop fadein 2.0 fadeout 2.0
 scene black with dissolve 
 show text "Act 1\nNew Beginnings" with Pause(4.2)
 with dissolve
+label act1:
 scene front gate with dissolve
-
 #Change Music
 play music "music/Excitement.mp3" loop fadein 2.0
 
